@@ -1,0 +1,33 @@
+{
+  "name": "rest-race-timer",
+  "version": "1.0.0",
+  "description": "REST race timer",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pulquero/rest-race-timer.git"
+  },
+  "keywords": [
+    "REST",
+    "LiveTime",
+    "fpv",
+    "race",
+    "drone",
+    "timer"
+  ],
+  "author": "Mark Hale",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pulquero/rest-race-timer/issues"
+  },
+  "homepage": "https://github.com/pulquero/rest-race-timer#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "pug": "^2.0.3",
+    "socket.io": "^2.2.0"
+  }
+}

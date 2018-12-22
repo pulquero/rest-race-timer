@@ -1,0 +1,19 @@
+html
+	head
+		title REST race timer
+	body
+		h1 REST race timer
+		form(method='post')
+			table
+				tr
+					th
+						| Node
+					th
+						| Frequency
+				if nodes
+					each n, i in nodes
+						tr
+							td
+								input(type='submit',name='node',value=i)
+							td
+								= n.frequency
