@@ -3,6 +3,11 @@ const app = express();
 const server = require('http').Server(app);
 const io = require('socket.io')(server);
 
+var port = 5000;
+if (process.argv.length > 2) {
+	port = parseInt(process.argv[2]);
+}
+
 var ltServer = null;
 
 app.set('views', './views');
@@ -22,7 +27,8 @@ app.post('/', (req, res) => {
 	res.render('index', ltServer != null ? ltServer.settings : {});
 });
 
-server.listen(5000);
+console.log('Listening on '+port);
+server.listen(port);
 
 io.on('connection', (socket) => {
 	console.log('connected');
