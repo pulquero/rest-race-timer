@@ -28,7 +28,7 @@
   "dependencies": {
     "express": "^4.17.3",
     "pug": "^3.0.2",
-    "engine.io": "^6.4",
-    "socket.io": "^4.5"
+    "engine.io": "^6.6",
+    "socket.io": "^4.8"
   }
 }
