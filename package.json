@@ -27,7 +27,7 @@
   "homepage": "https://github.com/pulquero/rest-race-timer#readme",
   "dependencies": {
     "express": "^4.22.3",
-    "pug": "^3.0.2",
+    "pug": "^3.0.3",
     "engine.io": "^6.6",
     "socket.io": "^4.8"
   }
